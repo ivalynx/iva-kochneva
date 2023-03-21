@@ -1,0 +1,12 @@
+.details {
+  display: inline;
+  &[open] .details__info {
+    display: block;
+  }
+}
+.details__summary {
+  display: inline;
+  width: fit-content;
+  border-bottom: 1px dashed $black;
+  cursor: pointer;
+}

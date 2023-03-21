@@ -1,0 +1,12 @@
+.page {
+  @include for-size(devices) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  @include for-size(laptop) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+.page__item {
+}
