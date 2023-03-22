@@ -115,7 +115,7 @@ button, input, select, textarea {margin: 0;}
 	&::before, &::after {
 		box-sizing: border-box;
 	}
-  @include for-size(phone) {
+  @include for-size(small-phone) {
     word-break: break-all;
   }
 }
