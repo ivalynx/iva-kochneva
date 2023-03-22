@@ -1,12 +1,26 @@
 .list-define {
   margin-left: 1.5em;
+  & & {
+    margin-top: 0.75rem;
+  }
+}
+%list-define__item {
+  margin-bottom: 0.75rem;
 }
 .list-define__term {
+  @extend %list-define__item;
+  margin-top: 1.7rem;
   display: list-item;
-  font-size: 125%;
+  font-size: $fontSizeTitle2;
   list-style: circle outside none;
+  &:first-child {
+    margin-top: 0;
+  }
 }
-.list-define__defines {
-  margin-left: 1.5em;
-  font-size: $fontSizeSmall;
+.list-define__defines {  
+  @extend %list-define__item;
+  // font-size: $fontSizeSmall;
+  &:last-of-type {    
+    margin-bottom: 0;
+  }
 }
