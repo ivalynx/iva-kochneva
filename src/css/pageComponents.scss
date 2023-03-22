@@ -1,9 +1,15 @@
+@import './components/header';
+@import './components/footer';
+
 @import './components/logotype.scss';
+@import './components/navMenu.scss';
 @import './components/burger-button.scss';
 @import './components/burger-menu.scss';
 @import './components/about-me';
-@import './components/details';
-@import './components/list-define';
 @import './components/contacts';
+@import './components/contacts-item.scss';
 
 @import './components/visually-hidden';
+@import './components/title';
+@import './components/details';
+@import './components/list-define';
