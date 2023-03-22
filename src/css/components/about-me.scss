@@ -1,11 +1,12 @@
 .about-me {
   display: flex;
-  flex-wrap: nowrap;
   align-items: center;
 }
 .about-me__photo {
-  display: block;
-  overflow: auto;
+  flex-shrink: 1;
+  @include for-size(phone) {
+    display: none;
+  }
   @include for-size(devices) {
     width: 100px;
     height: 100px;
@@ -18,5 +19,6 @@
   }
 }
 .about-me__text {
-
+  font-size: 125%;
+  line-height: 175%;
 }
