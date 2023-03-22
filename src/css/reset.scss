@@ -104,15 +104,30 @@ button {cursor: pointer;}
 /* Webkit browsers add a 2px margin outside the chrome of form elements */
 button, input, select, textarea {margin: 0;}
 
+
+/* My comment */
+
 * {
   font-family: 'Roboto', "MS Sans Serif", "MS Serif", "Arial", "Helvetica", "Verdana", "Geneva", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
 	line-height: 120%;
 	box-sizing: border-box;
 	&::before, &::after {
 		box-sizing: border-box;
 	}
-  @include for-size(small-phone) {
+  @include for-size(devices) {
     word-break: break-all;
+  }
+  @include for-size(laptop) {
+    word-break: break-all;
+  }
+}
+
+body {	
+  @include for-size(devices) {
+		font-size: 16px;
+  }
+  @include for-size(laptop) {
+		font-size: 20px;
   }
 }
