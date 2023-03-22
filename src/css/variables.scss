@@ -11,12 +11,13 @@ $blackOpacity60: rgba(0, 0, 0, 0.6);
 /* Fonts */
 $titleFontFamily: 'Roboto Slab', "Palatino Linotype", "Georgia", "Garamond", "Bookman Old Style", serif;
 $fontSizeLogo: 1.8rem;
-$fontSizeTitle: 1.2rem;
+$fontSizeTitle2: 1.2rem;
 $fontSizeSmall: 0.8rem;
 $lineHeight-standart: 120%;
 $lineHeight-incr: 175%;
 
 /* Breakpoints */
+$small-phone: 320px;
 $phone: 480px;
 $tablet: 768px;
 $laptop: 1024px;
