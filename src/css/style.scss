@@ -1,7 +1,9 @@
 @import './variables';
 
 @mixin for-size($range) {
-  @if $range == phone {
+  @if $range == small-phone {
+    @media screen and (max-width: $small-phone) { @content; }
+  } @else if $range == phone {
     @media screen and (max-width: $phone) { @content; }
   } @else if $range == tablet {
     @media screen and (min-width: #{$phone + 1}) and (max-width: $tablet) { @content; }
