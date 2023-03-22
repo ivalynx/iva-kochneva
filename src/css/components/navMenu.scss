@@ -1,0 +1,9 @@
+.navMenu {
+
+}
+.navMenu__item {
+  margin-right: 1.8em;
+  &:last-child {
+    margin-right: 0;
+  }
+}
