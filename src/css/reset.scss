@@ -115,10 +115,7 @@ button, input, select, textarea {margin: 0;}
 	&::before, &::after {
 		box-sizing: border-box;
 	}
-  @include for-size(devices) {
-    word-break: break-all;
-  }
-  @include for-size(laptop) {
+  @include for-size(phone) {
     word-break: break-all;
   }
 }
