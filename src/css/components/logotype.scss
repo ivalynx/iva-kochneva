@@ -7,6 +7,9 @@
   width: 74px;
   height: 102px;
   margin-right: 28px;
+  @include for-size(small-phone) {
+    display: none;
+  }
 }
 .logotype__text {
   font-family: $titleFontFamily;
