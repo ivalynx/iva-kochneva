@@ -9,9 +9,9 @@
 }
 .list-define__term {
   @extend %list-define__item;
-  margin-top: 1.7rem;
+  margin-top: 1.7em;
   display: list-item;
-  font-size: $fontSizeTitle2;
+  font-size: $fontSizeTitle3;
   list-style: circle outside none;
   &:first-child {
     margin-top: 0;
