@@ -1,7 +1,14 @@
 .container {
 
 }
-.container__item {  
+.container_header {
+  @include for-size(devices) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.container__item {
   margin-top: 0;
   margin-right: auto;
   margin-left: auto;  
