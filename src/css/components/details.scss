@@ -2,6 +2,7 @@
   display: inline;
   &[open] .details__info {
     display: block;
+    margin-top: 0.8em;
   }
 }
 .details__summary {
