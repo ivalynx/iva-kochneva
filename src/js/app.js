@@ -1,3 +1,3 @@
-import burger from './burger';
+// import burger from './burger';
 
-burger();
+// burger();
