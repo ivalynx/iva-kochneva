@@ -50,6 +50,7 @@ module.exports = {
       patterns: [
         { from: "src/img", to: "img" },
         { from: "src/favicon", to: "" },
+        { from: "src/files", to: "files" },
       ],
     }),
   ],
