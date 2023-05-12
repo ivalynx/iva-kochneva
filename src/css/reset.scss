@@ -128,3 +128,22 @@ body {
 		font-size: 20px;
   }
 }
+
+a {
+	text-decoration-thickness: 2px;
+	text-underline-offset: 0.15em;
+	text-decoration-color: currentColor;
+	transition: 150ms ease-in-out;
+	&:hover {
+		text-decoration-thickness: 1px;
+	}
+	// &:focus {
+	// 	text-decoration-thickness: 3px;
+	// }
+	// &:active {
+	// 	text-decoration-thickness: 3px;
+	// }
+	// &:visited {
+	// 	text-decoration-thickness: 1px;
+	// }
+}
