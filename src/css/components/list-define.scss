@@ -11,6 +11,7 @@
   @extend %list-define__item;
   margin-top: 1.7em;
   display: list-item;
+  font-family: $titleFontFamily;
   font-size: $fontSizeTitle3;
   list-style: circle outside none;
   &:first-child {
