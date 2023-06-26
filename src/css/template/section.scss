@@ -9,7 +9,7 @@
     padding: 0 16px;
   }
   @include for-size(desktop) {
-    width: $laptop;
+    width: calc($laptop - 17px);
     padding: 0;
   }
 }
