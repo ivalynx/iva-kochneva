@@ -15,4 +15,7 @@
   font-family: $titleFontFamily;
   font-size: $fontSizeLogo;
   word-break: keep-all;
+  & > * {
+    display: block;
+  }
 }
