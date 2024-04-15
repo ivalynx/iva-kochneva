@@ -1,5 +1,4 @@
 .details {
-  display: inline;
   &[open] .details__summary::after {
     transform: rotate(-180deg);
   }
@@ -10,7 +9,6 @@
   }
 }
 .details__summary {
-  margin-bottom: 1em;
   width: fit-content;
   border-bottom: 1px dashed $black;
   cursor: pointer;
