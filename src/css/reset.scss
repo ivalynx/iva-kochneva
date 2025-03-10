@@ -111,7 +111,7 @@ button, input, select, textarea {margin: 0;}
 * {
   font-family: 'Roboto', "MS Sans Serif", "MS Serif", "Arial", "Helvetica", "Verdana", "Geneva", sans-serif;
   font-weight: lighter;
-	line-height: 120%;
+	line-height: 140%;
 	box-sizing: border-box;
 	&::before, &::after {
 		box-sizing: border-box;
@@ -149,7 +149,7 @@ a {
 	// }
 }
 details, h1, h2, h3, h4, h5, h6, dl, dt, dd, ol, ul, li, p, blockquote {
-	margin-bottom: 1em;
+	margin-bottom: 0.75em;
 	&:last-child {
 		margin-bottom: 0;
 	}
