@@ -1,18 +1,10 @@
 .list {
-  margin-left: 1em;
+  margin-left: 1.25em;
   & & {
     margin-top: 0.75em;
   }
-}
-.list__item {
-  // margin-top: 0.75em;  
-  margin-bottom: 0;
-  display: list-item;
-  list-style: circle outside none;
-  &:first-child {
+  & > * {
     margin-top: 0;
-  }
-  &:last-of-type {    
     margin-bottom: 0;
   }
 }
