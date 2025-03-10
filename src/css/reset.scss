@@ -17,7 +17,7 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 	padding: 0;
 	border: 0;
 	outline: 0;
-	font-family: inherit;
+	font-family: 'Roboto', "MS Sans Serif", "MS Serif", "Arial", "Helvetica", "Verdana", "Geneva", sans-serif;
 	font-size: 100%;
 	vertical-align: baseline;
 	background: transparent;
@@ -109,7 +109,7 @@ button, input, select, textarea {margin: 0;}
 /* My comment */
 
 * {
-  font-family: 'Roboto', "MS Sans Serif", "MS Serif", "Arial", "Helvetica", "Verdana", "Geneva", sans-serif;
+  // font-family: 'Roboto', "MS Sans Serif", "MS Serif", "Arial", "Helvetica", "Verdana", "Geneva", sans-serif;
   font-weight: lighter;
 	line-height: 140%;
 	box-sizing: border-box;
